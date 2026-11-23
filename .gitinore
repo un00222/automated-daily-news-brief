@@ -1,0 +1,15 @@
+# Private API credentials
+.env
+
+# Python virtual environment
+.venv/
+
+# Temporary Python files
+__pycache__/
+*.pyc
+
+# Raw and processed news data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
